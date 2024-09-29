@@ -1,0 +1,93 @@
+
+
+.container {
+    background-color: #1e1e2f;
+    color: white; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem; 
+  }
+  
+  h1 {
+    font-size: 2rem; 
+    margin-bottom: 1.5rem; 
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem; 
+  }
+  
+  .controls label {
+    font-weight: bold;
+  }
+  
+  select {
+    border: 1px solid #555; 
+    border-radius: 0.25rem;
+    padding: 0.5rem; 
+    background-color: #2b2b3d; 
+    color: white;
+  }
+  
+  .select:hover {
+    background-color: #333; 
+  }
+  
+  .chart-container {
+    position: relative; 
+    width: 100%; 
+    height: 400px; 
+    overflow: hidden; 
+}
+
+  
+  .canvas {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+  }
+  
+  .tooltip {
+    background-color: rgba(50, 50, 50, 0.9); 
+    border: 1px solid #777; 
+    border-radius: 0.25rem; 
+  }
+  .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-buy {
+    background-color: #4caf50;
+  }
+  
+  .button-buy:hover {
+    background-color: #45a049; 
+  }
+  
+  .button-sell {
+    background-color: #f44336; 
+  }
+  
+  .button-sell:hover {
+    background-color: #e53935; 
+  }
+  
+  .input-rate {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px; 
+    background-color: white;
+    color: black;
+  }
+  
